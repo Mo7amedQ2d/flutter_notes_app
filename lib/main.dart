@@ -12,4 +12,3 @@ class MyApp extends StatelessWidget {
     return const Placeholder();
   }
 }
-// No Source control providers registered 
