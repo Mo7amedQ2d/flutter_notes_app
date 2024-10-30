@@ -9,6 +9,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Container(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(child: const Text('data')),
+        ),
+      ),
+    );
   }
 }
