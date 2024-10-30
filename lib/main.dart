@@ -9,13 +9,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Container(child: const Text('data')),
-        ),
-      ),
+    return MaterialApp(
+      
+      theme: ThemeData(brightness: Brightness.dark),
+      home: const Scaffold(),
     );
   }
 }
