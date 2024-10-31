@@ -14,15 +14,26 @@ class AddNotesBottomSheet extends StatelessWidget {
           color: Colors.blueGrey,
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(16.0), topRight: Radius.circular(16.0))),
-      child:  const Padding(
+      child: const Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.0),
         child: Column(
           children: [
             SizedBox(
               height: 32,
             ),
-            CustomTextFiled(),
-        
+            CustomTextFiled(
+              hintText: 'Title Text',
+              maxLines: 1,
+            ),
+            SizedBox(
+              height: 12,
+            ),
+            CustomTextFiled(
+              hintText: 'Content',
+              maxLines: 4,
+            ),
+
+            
           ],
         ),
       ),
