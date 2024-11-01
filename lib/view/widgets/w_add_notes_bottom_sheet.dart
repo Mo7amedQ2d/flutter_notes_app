@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 
+import 'w_custom_buttom.dart';
 import 'w_custom_text_field.dart';
 
 class AddNotesBottomSheet extends StatelessWidget {
@@ -11,7 +12,6 @@ class AddNotesBottomSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
-          color: Colors.blueGrey,
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(16.0), topRight: Radius.circular(16.0))),
       child: const Padding(
@@ -32,8 +32,13 @@ class AddNotesBottomSheet extends StatelessWidget {
               hintText: 'Content',
               maxLines: 4,
             ),
-
-            
+            SizedBox(
+              height: 32,
+            ),
+            CustomButton(),
+            SizedBox(
+              height: 12,
+            ),
           ],
         ),
       ),
