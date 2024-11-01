@@ -35,9 +35,10 @@ class AddNotesBottomSheet extends StatelessWidget {
             SizedBox(
               height: 32,
             ),
+            Spacer(),
             CustomButton(),
             SizedBox(
-              height: 12,
+              height: 16,
             ),
           ],
         ),
