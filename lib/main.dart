@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_notes_app/constas.dart';
+import 'package:flutter_notes_app/constants.dart';
 import 'package:flutter_notes_app/view/notes_view.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 

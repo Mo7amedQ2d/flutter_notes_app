@@ -30,12 +30,11 @@ class NoteItem extends StatelessWidget {
                   subtitle: Padding(
                     padding: const EdgeInsets.only(top: 10.0, bottom: 10),
                     child: Text(
-                      'Builde app notes and ran the phone ',
+                      'Build app notes and ran the phone ',
                       style: TextStyle(
                           fontSize: 15, color: Colors.white.withOpacity(0.5)),
                     ),
                   ),
-                  // FaIcon(FontAwesomeIcons.gamepad),
                   trailing: IconButton(
                       onPressed: () {},
                       icon: const FaIcon(
