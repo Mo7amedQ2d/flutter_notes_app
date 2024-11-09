@@ -4,6 +4,7 @@ import 'package:flutter_notes_app/cubits/add_note_cubit/add_note_cubit.dart';
 import 'package:flutter_notes_app/model/note_model.dart';
 import 'package:intl/intl.dart';
 
+import 'w_color_list_view.dart';
 import 'w_custom_bottom.dart';
 import 'w_custom_text_field.dart';
 
@@ -49,7 +50,12 @@ class _AddNoteFormState extends State<AddNoteForm> {
             maxLines: 4,
           ),
           const SizedBox(
-            height: 32,
+            height: 15,
+          ),
+          const ColorListView(),
+
+          const SizedBox(
+            height: 15,
           ),
 // Spacer(),
           BlocBuilder<AddNoteCubit, AddNoteState>(
@@ -85,3 +91,4 @@ class _AddNoteFormState extends State<AddNoteForm> {
     );
   }
 }
+
